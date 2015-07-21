@@ -1,3 +1,12 @@
+var num = 0;
+
 function squeak() {
-    $('.squeak').html("SQUEAK");
+    var randomNum = Math.floor(Math.random()*squeaksArray.length);
+
+    if (randomNum != num) {
+        num = randomNum;
+        $('.squeak').html(squeaksArray[randomNum]);
+    } else {
+        squeak();
+    }
 }

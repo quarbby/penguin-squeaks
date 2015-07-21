@@ -5,12 +5,19 @@ html,body {
 
 h1 {
   font-family: Arial,sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   color: #6a5acd;
 }
 
 img {
   cursor: pointer;
+  display: block;
+  float: left;
+}
+
+.container {
+  width: 45%;
+  margin: auto; 
 }
 
 .lead {
@@ -20,6 +27,15 @@ img {
 .squeak {
   color: #f25454;
   font-size: 25px;
+  font-weight: bold;
+  word-wrap: break-word;
+  margin-left: 28px;
+  width: 400px;
+  text-align: left;
+  
+  position: absolute;
+  right: 300px;
+  bottom: 0 ;
 }
 
 /* Custom container */

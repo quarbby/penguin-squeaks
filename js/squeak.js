@@ -4,7 +4,7 @@ var animNum = -1;
 function squeak() {
     var textOrAnimation = Math.random();
     
-    textOrAnimation = 0.1;
+    //textOrAnimation = 0.1;
     
     // Clear previous animations 
     if (animNum == 0) {

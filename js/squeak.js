@@ -1,6 +1,8 @@
 var textNum = -1;
 var animNum = -1;
 
+var timer = null;
+
 function squeak() {
     var textOrAnimation = Math.random();
     
@@ -8,25 +10,25 @@ function squeak() {
     
     // Clear previous animations 
     if (animNum == 0) {
-        //console.log("Removing snowflakes");
+        console.log("Removing snowflakes");
+        clearInterval(interval);
         //location.reload();
-        $('.flake').remove();
+        //$('.flake').remove();
     } else if (animNum == 1) {
-        //console.log("Removing font flakes");
-        //location.reload();
+        console.log("Removing font flakes");
+        window.clearInterval(timer);
         //$('.fontFlake').remove();
     } else if (animNum == 2) {
         $('.container-full').css('background-color', '#f8f8ff');
         $('canvas').remove();
-        //location.reload();
     }  
     
     if (textOrAnimation > 0.5) {
         // Random Text Quote
         var randomNum = Math.floor(Math.random()*squeaksArray.length);
 
-        if (randomNum != num) {
-            num = randomNum;
+        if (randomNum != textNum) {
+            textNum = randomNum;
             $('.squeak').html(squeaksArray[randomNum]);
         } else {
             squeak();
@@ -46,12 +48,12 @@ function randomAnimation() {
         
         switch (randomNum) {
             case 0:
-                $.fn.snow({ minSize: 5, maxSize: 50, newOn: 500, flakeColor: '#0099FF' });
+                $.fn.snow({ minSize: 5, maxSize: 50, newOn: 500, flakeColor: '#0099FF', durationMillis: 60});
                 $('.squeak').html("Let it Snow<br> Let it Snow<br> Let it snow!");
                 break;
             
             case 1:
-                 window.setInterval(function(){
+                 timer = window.setInterval(function(){
                     var stageWidth = $(window).width();
                     var stageHeight = $(window).height();
                     var randomEntry = Math.ceil(Math.random()*stageWidth);

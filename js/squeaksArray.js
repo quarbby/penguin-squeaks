@@ -31,3 +31,7 @@ squeaksArray[28] = "This is not a bug. It's a feature.";
 squeaksArray[29] = "Regression: One little bug fixed; 99 little bugs come popping up :(";
 squeaksArray[30] = "How come you can find TEA in a tea cup but not WORLD in a world cup?";
 squeaksArray[31] = "PENGUIN PENGUIN!";
+squeaksArray[32] = "You're braver than you believe, stronger than you seem and smarter than you think";
+squeaksArray[33] = "If there comes a day we can't be together, keep me in your heart; I'll stay there forever";
+squeaksArray[34] = "Rivers know this: There's no hurry. We'll get there one day.";
+squeaksArray[35] = "To INFINITY and BEYOND!";

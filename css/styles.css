@@ -65,4 +65,30 @@ img {
 .v-center {
   margin-top:7%;
 }
+
+/* Particle Star Burst */
+.jquery-particule-emitter {
+    position: relative;
+    display: inline;
+}
+
+.jquery-particle {
+    position: absolute;
+    opacity: 0;
+}
+
+/* Rotate text */
+#rotating {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.rotated { 
+  transform:rotate(360deg); 
+  -webkit-transform:rotate(360deg); 
+  -moz-transform:rotate(360deg); 
+  -o-transform:rotate(360deg); 
+}
   

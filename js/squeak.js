@@ -10,20 +10,15 @@ function squeak() {
     
     // Clear previous animations 
     if (animNum == 0) {
-        console.log("Removing snowflakes");
         clearInterval(interval);
-        //location.reload();
-        //$('.flake').remove();
     } else if (animNum == 1) {
-        console.log("Removing font flakes");
         window.clearInterval(timer);
-        //$('.fontFlake').remove();
     } else if (animNum == 2) {
         $('.container-full').css('background-color', '#f8f8ff');
         $('canvas').remove();
     }  
     
-    if (textOrAnimation > 0.5) {
+    if (textOrAnimation > 0.3) {
         // Random Text Quote
         var randomNum = Math.floor(Math.random()*squeaksArray.length);
 
@@ -39,10 +34,11 @@ function squeak() {
 }
 
 function randomAnimation() {
-    var randomNum = Math.floor(Math.random() * 3);
+    var numAnimations = 4;
+    var randomNum = Math.floor(Math.random() * numAnimations);
     
     if (randomNum != animNum) {
-        //randomNum = 3;
+        //randomNum = 4;
         
         animNum = randomNum;
         
@@ -84,19 +80,19 @@ function randomAnimation() {
                 $('.squeak').html('Scroll down and move your mouse to emjoy the snowflakes!');
                 break;
             
-            // Not working 
             case 3:
-                console.log("Animate Background");
-                $('.container-full').animate( { backgroundColor: 'violet' }, 500)
-                   .animate( { backgroundColor: 'pink' }, 500)
-                   .animate( { backgroundColor: 'violet' }, 500)
-                   .animate( { backgroundColor: 'pink' }, 500)
-                   .animate( { backgroundColor: 'violet' }, 500)
-                   .animate( { backgroundColor: 'pink' }, 500)
-                   .animate( { backgroundColor: 'violet' }, 500)
-                   .animate( { backgroundColor: 'pink' }, 500);
-                $('.squeak').html("Flashing background colours but not working :(");
+                $('.squeak').pburst({
+                    partoffset: 250,
+                    duration: 1000,
+                    frequency: 100
+                }).pburst('burst_part', 60);
+                $('.squeak').html("Star Burst!");
                 break;            
+            
+            case 4:
+                $('#rotating').toggleClass('rotated');
+                $('.squeak').html("WHEEE!!!");
+                break;
             
             default:
                 randomAnimation();

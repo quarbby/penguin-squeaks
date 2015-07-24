@@ -92,4 +92,39 @@ img {
   -o-transform:rotate(360deg); 
 }
 
-#map { height: 100%; }
+/* For Travel.html */
+#map { 
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%; 
+  width: 100%;
+  padding: none;
+}
+
+.worldmaptitle {
+    margin-right: 2em;
+    font-family: "Permanent Marker";
+    color: black;
+}
+
+.popup {
+  min-height: 270px;
+  font-family: "Helvetica";
+}
+
+.popup-name {
+  font-family: "Permanent Marker";
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.popup-date {
+  color: #c71585;
+}
+
+.popup-img {
+  margin-top: 1em;
+}

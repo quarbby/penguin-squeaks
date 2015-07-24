@@ -1,0 +1,134 @@
+[
+    {
+        "name": "Singapore, Singapore",
+        "date": "Since 1993",
+        "travel_type": "travelled",
+        "lat": "1.300",
+        "long": "103.8",
+        "url": "https://en.wikipedia.org/wiki/Singapore",
+        "desc": "Living here my entire life on this sunny island. Thankful and proud of the opportunities it has given me.",
+        "img" :"https://scontent-sin1-1.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/1465321_10152043407818308_681286237_n.jpg?oh=107e46c8821a792c5a7cea867b52f0d5&oe=56563BEB"
+    },
+    
+    {
+        "name": "Japan, Tokyo",
+        "date": "16-19 September 2014",
+        "travel_type": "travelled",
+        "lat": "35.6604105",
+        "long": "139.7292645",
+        "url": "https://www.comp.nus.edu.sg/news/2014GABMS.html",
+        "desc": "Google Anita Borg Scholarship Asia Pacific for outstanding women in computing. Had a great time meeting other passionate women computer scientists and learning about their culture.",
+        "img": "https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xfa1/v/t1.0-9/10660141_779649895432069_66602108376686130_n.jpg?oh=ebf7442b97f5b0f1b0ecb598ac62ec6e&oe=564F66C4&__gda__=1447835249_7f8ad599adc01aa3b8b89ff4ee49a677"
+    },
+    
+    {
+        "name": "Transdec, San Diego",
+        "date": "16 July 2014 - 10 August 2014",
+        "travel_type": "travelled",
+        "lat": "32.703068",
+        "long": "-117.2499658",
+        "url": "https://www.comp.nus.edu.sg/news/2014RoboSub.html",
+        "desc": "I tried to make an AUV bash a red buoy and shoot torpedos.",
+        "img": "https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xap1/v/t1.0-9/10628408_10152710475018885_2169814974802337044_n.jpg?oh=c3ac2dab6321793543d557a1bd1e59d7&oe=564F252A&__gda__=1443975807_53110ac0c27d889f4c72d77895720192"
+    },
+
+    {
+        "name": "London, United Kingdom",
+        "date": "September 2012 - June 2013",
+        "travel_type": "travelled",
+        "lat": "51.5246057",
+        "long": "-0.1333098",
+        "url": "http://www.cs.ucl.ac.uk/",
+        "desc": "Where I played more than I studied",
+        "img": "https://scontent-sin1-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/426418_10151289291996863_255082075_n.jpg?oh=ebe8239f3be26a00690f51617ea258a2&oe=565A3AED"
+    },
+    
+    {
+        "name": "Seattle, United States",
+        "date": "",
+        "travel_type": "wishlist",
+        "lat": "47.614848",
+        "long": "-122.3359058",
+        "url": "",
+        "desc": "Because Adrian keeps reminiscing about it",
+        "img": "https://www.google.com.sg/maps/uv?hl=en&pb=!1s0x54900d5c18a2fb13:0x2ea0971d7e01af72!2m5!2m2!1i80!2i80!3m1!2i100!3m1!7e1!4shttps://plus.google.com/108045787964415532248/photos?hl%3Den%26socfid%3Dweb:lu:kp:placepageimage%26socpid%3D1!5sseattle+digipen+-+Google+Search&sa=X&ved=0CG0QoiowDWoVChMI58C9w-DyxgIVhBmUCh3Z_gmW"
+    },
+    
+    {
+        "name": "Seoul, Korea",
+        "date": "",
+        "travel_type": "wishlist",
+        "lat": "37.5651",
+        "long": "126.98955",
+        "url": "",
+        "desc": "It should be as amazing as the TV dramas",
+        "img": "http://i.ytimg.com/vi/o8w7ui2BC84/maxresdefault.jpg"
+    },
+    
+    {
+        "name": "MIT, United States",
+        "date": "",
+        "travel_type": "wishlist",
+        "lat": "42.3597191",
+        "long": "-71.0944627",
+        "url": "",
+        "desc": "How about a PhD in Computer Science?",
+        "img": "http://sloansocialimpact.mit.edu/wp-content/uploads/2014/02/MIT_Dome_night1_Edit.jpg"
+    },
+    
+    {
+        "name": "Okinawa, Japan",
+        "date": "December 2014",
+        "travel_type": "travelled",
+        "lat": "26.5849962",
+        "long": "127.7173527",
+        "url": "",
+        "desc": "Mummy, Daddy and Me!",
+        "img": "http://media.royalcaribbean.com/content/shared_assets/images/ports/hero/OKA_01.jpg"
+    },
+    
+    {
+        "name": "(Almost) Jungfrau, Interlaken, Swizterland",
+        "date": "December 2013",
+        "travel_type": "travelled",
+        "lat": "46.5367835",
+        "long": "7.9625955",
+        "url": "http://www.jungfrau.ch/en/quick-navigation/contact/railway-stations/",
+        "desc": "I'm on the Top of the World looking down on creation and the only explanation I can find!",
+        "img": "https://scontent-sin1-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/11149251_10153294804988308_3887050008504704822_n.jpg?oh=9bd5698eb13cf91cda2d2a93f2792bcb&oe=565B8663"
+    },
+    
+    {
+        "name": "Pisa, Italy",
+        "date": "December 2012",
+        "travel_type": "travelled",
+        "lat": "43.4717373",
+        "long": "10.6359088",
+        "url": "",
+        "desc": "The Tower is Leaning!",
+        "img": "https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xfa1/v/t1.0-9/528920_10151262691958068_1270190582_n.jpg?oh=d759f2720d3218a036ff8a9d94f4781e&oe=56133CB4&__gda__=1444131515_ae6d62f61acb7e5cf031152e292e690a"
+    },
+    
+    {
+        "name": "Vatican City, Italy",
+        "date": "December 2012",
+        "travel_type": "travelled",
+        "lat": "41.9038163",
+        "long": "12.4520612",
+        "url": "",
+        "desc": "Home of the Pope and Beautiful Architecture",
+        "img": "https://scontent-sin1-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/399167_10151261315648068_1384798812_n.jpg?oh=a2ea0ad713525a5c84b31fdf02af2109&oe=56101DE5"
+    },
+    
+    {
+        "name": "Cambridge, United Kingdom",
+        "date": "January 2013",
+        "travel_type": "travelled",
+        "lat": " 52.1988421",
+        "long": "0.1199872",
+        "url": "",
+        "desc": "Day trip with Punting",
+        "img": "https://scontent-sin1-1.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/734797_10151305640208122_535856920_n.jpg?oh=f4ed8389647cdb358c9aba3e09373303&oe=5617E345"
+    }
+   
+]
